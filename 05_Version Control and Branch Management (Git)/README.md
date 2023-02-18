@@ -1,7 +1,7 @@
 Tuliskan 3 poin yang dipelajari dari materi tersebut
 
 1.	Version Control System 
-Version Control System merupakan sebuah sistem yang menyimpan rekaman perubahan dari sebuah source code. VCS memungkinkan sebuah team dapat berkolaborasi. Dengan adanya rekaman perubahan dapat mengetahui kapan sebuah perubahan dilakukan dan siapa yang melakukan. 
+merupakan sebuah sistem yang menyimpan rekaman perubahan dari sebuah source code. VCS memungkinkan sebuah team dapat berkolaborasi. Dengan adanya rekaman perubahan dapat mengetahui kapan sebuah perubahan dilakukan dan siapa yang melakukan. 
 
 2.	GIT dan GITHUB
 GIT merupakan version control system yang popular digunakan para developer untuk mengembangkan software secara bersama sama. Git juga akan merekam seluruh perubahan yang dilakukan pada sebuah file. Github merupakan software yang dapat melakukan penyimpanan, pengelolaan, dan  tempat berkolaborasi team untuk mengembangkat software yang menggunakan Git. 
