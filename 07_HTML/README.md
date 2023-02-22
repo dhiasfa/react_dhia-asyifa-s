@@ -16,7 +16,6 @@
 - `<em> </em>` tag untuk membuat text menjadi *italic*.
 - `<s> </s>` tag untuk membuat text menjadi tercoret.
 - `<u> </u>` tag untuk membuat text menjadi underline. 
----
-Contohnya seperti pada gambar berikut :
+##### Contohnya seperti pada gambar berikut :
 ![Contoh Gambar](https://maliki.id/wp-content/uploads/2020/10/29-2.png)
 
