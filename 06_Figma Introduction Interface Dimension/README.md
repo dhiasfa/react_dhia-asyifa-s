@@ -1,4 +1,4 @@
-#Resume Figma
+# Resume Figma
 1. Figma
 Figma merupakan salah satu platform yang populer dikalangan para desiner. Aplikasi ini, dapat digunakan untuk membuat desain ui dari sebuah web/mobile. Berikut contoh cara penggunaan figma untuk mendesain web [LinkTutorialMendesainWeb](https://aufaroot18.medium.com/membuat-wireframe-website-dengan-figma-35a0b20e15ed).
 
