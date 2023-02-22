@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+header{
+    margin-top: 10px;
+  
+}  
+
+header h4{
+    font-family:'Roboto';
+    margin-left:20px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+
+.content{
+    margin-top: 60px;
+    margin-left: 40px
+}
+
+.content h1{
+    width: 600px;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+.judul p{
+    width: 600px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.navigasi{
+    margin-top: 40px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+#btnStart{
+    width: 115px;
+    height:45px;
+    background-color: white;
+    border: black 1px solid;
+    margin-right: 60px;
+}
+
+#btnWatch{
+    background-color: white;
+    border: none;
+}
+
+#btnStart:hover{
+    background-color:lightblue;
+}
+#btnWatch:hover{
+    color:lightblue;
+}
+.content h2{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 510px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#btnStart2{
+    width: 115px;
+    height:45px;
+    background-color: white;
+    border: black 1px solid;
+    margin-bottom: 40px;
+}
+#btnStart2:hover{
+    background-color:lightblue;
+}
+
+footer{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+
+}
+footer #copyright{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+span{
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+}
+
+#design{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
