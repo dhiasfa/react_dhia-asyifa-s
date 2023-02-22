@@ -8,5 +8,5 @@ Figma merupakan salah satu platform yang populer dikalangan para desiner. Aplika
 * Dapat digunakan untuk berkolaborasi bersama team.
 * Juga aplikasi ini bersifat Realtime. 
 
-3. Grid di Figma 
+## 3. Grid di Figma 
 Grid di figma memudahkan saya saat mendesain web karena dengan adanya grid membuat desain menjadi rapi. Juga memudahkan front end saat melakukan layouting pada tampilan web. Untuk cara menggunakan grid di figma dapat diliat pada link berikut [LinkTutorialGrid](https://youtu.be/zd8wrAdURN0). 
