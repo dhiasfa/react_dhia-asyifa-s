@@ -6,7 +6,7 @@
 ## Cara Menambakan CSS pada file HTML 
 Terdapat tiga metode yang dapat dilakukan untuk menambahkan CSS pada file html, diantaranya yaitu :
 - Inline, dapat digunakan pada element tunggal html. Contohnya `<p style="color:white;">Something usefull here.</p>` 
-- Internal, dapat digunakan didalam satu halaman html. Syntax yang digunakan `<style type="text/css">`  dan ditaruh pada tag `<head>` lalu menuliskan syntax cssnya.
+- Internal, dapat digunakan didalam satu halaman html. Syntax yang digunakan `<style type="text/css">` ditutup dengan tag `</style>` lalu menuliskan syntax cssnya dan didalam pada tag `<head>`.
 - External, dapat digunakan diluar halaman html. Untuk menghubungkan file css nya dengan menggunakan  syntax berikut `<link rel="stylesheet" type="text/css" href="style.css"/>` dan ditaruh di dalam tag `<head>`. 
 
 ## User Persona
