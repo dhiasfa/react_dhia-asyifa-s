@@ -1,4 +1,3 @@
-//tugasPrioritas-1
 function validateProductName() {
     let input = document.getElementById("productName");
     let maxLength = 25;
@@ -14,7 +13,7 @@ function validateProductName() {
       return true;
     }
 }
-//tugasPrioritas-2
+
 function handleInput(){
 
     let productName = document.getElementById("productName");
@@ -72,6 +71,36 @@ function handleInput(){
       productPrice: productPrice.value
   };
 
-  alert(`Data yang telah dimasukkan:\n${JSON.stringify(data, null, 2)}`);
+//   alert(`Data yang telah dimasukkan:\n${JSON.stringify(data, null, 2)}`);
 
 }
+
+function addData() {
+    // Menangkap nilai inputan dari form
+    let productName = document.getElementById("productName").value;
+    let productCategory = document.getElementById("Pcategory").value;
+    let productFreshness = document.querySelector('input[name="product_freshness"]:checked').value;
+    let productDescription = document.getElementById("product-description").value;
+    let productPrice = document.getElementById("product-price").value;
+
+    let  table = document.getElementById("myTable");
+    let rowCount = table.rows.length;
+
+    let row = table.insertRow(-1);
+    let noCell = row.insertCell(0);
+    let productNameCell = row.insertCell(1);
+    let productCategoryCell = row.insertCell(2);
+    let imageInputCell = row.insertCell(3);
+    let productFreshnessCell = row.insertCell(3);
+    let productDescriptionCell = row.insertCell(5);
+    let productPriceCell = row.insertCell(6);
+ 
+    noCell.innerHTML = rowCount;
+    productNameCell.innerHTML = productName;
+    productCategoryCell.innerHTML = productCategory;
+    imageInputCell.innerHTML = "lorem";
+    productFreshnessCell.innerHTML = productFreshness;
+    productDescriptionCell.innerHTML = productDescription;
+    productPriceCell.innerHTML = productPrice;
+}
+
