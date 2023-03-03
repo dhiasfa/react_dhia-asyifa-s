@@ -1,3 +1,4 @@
+// fungsi untuk memvalidasi input dari productName
 function validateProductName() {
     let input = document.getElementById("productName");
     let maxLength = 25;
@@ -71,8 +72,6 @@ function handleInput(){
       productPrice: productPrice.value
   };
 
-//   alert(`Data yang telah dimasukkan:\n${JSON.stringify(data, null, 2)}`);
-
 }
 
 function addData() {
@@ -83,10 +82,17 @@ function addData() {
     let productDescription = document.getElementById("product-description").value;
     let productPrice = document.getElementById("product-price").value;
 
+    //  Mengambil reference untuk elemen tabel dan form
     let  table = document.getElementById("myTable");
+    let  myForm = document.getElementById("create-form");
+
+    // Variabel untuk panjang row pada tabel 
     let rowCount = table.rows.length;
 
+    // Buat elemen row baru untuk tabel
     let row = table.insertRow(-1);
+
+    // Menambahkan cell untuk setiap kolom pada row
     let noCell = row.insertCell(0);
     let productNameCell = row.insertCell(1);
     let productCategoryCell = row.insertCell(2);
@@ -94,7 +100,9 @@ function addData() {
     let productFreshnessCell = row.insertCell(3);
     let productDescriptionCell = row.insertCell(5);
     let productPriceCell = row.insertCell(6);
- 
+    
+    
+  // Masukkan data ke dalam cell
     noCell.innerHTML = rowCount;
     productNameCell.innerHTML = productName;
     productCategoryCell.innerHTML = productCategory;
@@ -102,5 +110,8 @@ function addData() {
     productFreshnessCell.innerHTML = productFreshness;
     productDescriptionCell.innerHTML = productDescription;
     productPriceCell.innerHTML = productPrice;
+// Kosongkan form setelah data telah ditambahkan ke dalam tabel
+    myForm.reset();
+
 }
 
