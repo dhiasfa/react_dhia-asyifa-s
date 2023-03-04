@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+  }
+body{
+    height: auto;
+}
+header{
+    margin-top: 10px;
+    font-family: 'Roboto';
+  
+}  
+
+header h4{
+    margin-left:20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+
+
+.content{
+    height: 730px;
+    background-color: #37517E;
+    padding-left: 20px;
+    display: grid;
+    grid-template-areas: "judul img";
+      grid-template-columns: 1fr 1.5fr;
+      grid-template-rows: 1fr;
+
+    
+}
+.judul{
+    grid-area: judul;
+    margin-top: 267px;
+    margin-left: 40px;
+}
+.heroku {
+    grid-area: img;
+    margin-top: 180px;
+   
+}
+.heroku img{
+    width: 560px;
+}
+
+.content h1{
+    height: 125px;
+    width: 600px;
+    margin-bottom: 15px;
+    font-family: 'Jost';
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.judul p{
+    height: 63.8px;
+    width: 620px;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.navigasi{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+#btnStart{
+    width: 148px;
+    height: 45px;
+    background: #47B2E4;
+    border-radius: 50px;
+    border: none;
+    margin-right: 65px;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#btnWatch{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#btnStart:hover{
+    background-color:lightblue;
+}
+#btnWatch:hover{
+    color:lightblue;
+}
+
+
+.news {
+    background: #F3F5FA;
+   padding-top: 45px;
+   padding-bottom: 60px;
+}
+.news h2{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #37517E;
+    text-align: center;
+}
+.news p{
+    margin-top: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+form{
+    margin-top: 31px;
+    text-align: center;
+}
+#kotakInput{
+    width: 516px;
+    height: 42.5px;
+    padding: 6px 50px 6px 10px;
+    position:relative;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border: white 0.2rem solid;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+    margin-right: 30px;
+
+}
+
+#btnSubscribe{
+    position: absolute;
+    width: 110px;
+    height: 42.5px;
+    margin-left: -80px;
+    background: #47B2E4;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    border: none;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+#btnSubscribe:hover{
+       color: black;
+}
+.footer-nav{
+    height: 339.19px;
+    padding-left: 80px;
+    padding-top: 80px;
+    background: #FFFFFF;
+    display: grid;
+    grid-template-areas: "company links service network";
+    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr;
+    grid-template-rows: 1fr;
+}
+.company{
+    grid-area: company;
+    
+    
+}
+.company h3{
+    grid-area: company;
+    font-family: 'Jost';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-transform: uppercase;
+
+    color: #37517E;
+}
+.indent{
+    text-indent: 5px;
+}
+
+
+.company p{
+    font-family: 'Jost';
+
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+
+
+
+color: #5E5E5E;
+}
+.links{
+    grid-area: links;
+   
+}
+.footer-nav  h2{
+    font-family: 'Jost';
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #37517E;
+}
+.footer-nav ul{
+    list-style-type: none;
+}
+.footer-nav li{
+    margin:18px;
+    font-family: 'Open Sans';
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #777777;
+
+}
+.links li a{
+    text-decoration: none;
+    color: #777777;
+    font-family: 'Open Sans';
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    
+}
+.service{
+    grid-area: service;
+}
+.network{
+    grid-area: network;
+}
+.network p{
+    width: 278px;
+    height: 40px;
+    font-family: 'Open Sans';
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #444444;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.kotak{
+    display: grid;
+    grid-template-areas: "kotak1 kotak2 kotak3 kotak4";
+    grid-template-columns: repeat(4,50px ); 
+    grid-template-rows:50px ;
+    row-gap: 1px;
+}
+.bulat1{
+    grid-area: kotak1;
+    width:36px;
+    height:36px;
+    background-color: #47B2E4;
+    border-radius: 18px;
+}
+.bulat2{
+    grid-area: kotak2;
+    width:36px;
+    height:36px;
+    background-color: #47B2E4;
+    border-radius: 18px;
+}
+.bulat3{
+    grid-area: kotak3;
+    width:36px;
+    height:36px;
+    background-color: #47B2E4;
+    border-radius: 18px;
+}
+.bulat4{
+    grid-area: kotak4;
+    width:36px;
+    height:36px;
+    background-color: #47B2E4;
+    border-radius: 18px;
+}
+footer{
+    padding-top: 31px;
+    padding-bottom: 31px;
+    padding-left: 93px;
+    padding-right: 93px;
+    height: 81px;
+    background: #37517E;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+ #copyright{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+   
+}
+#copyright span{
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+}
+
+#design{
+    /* margin-top: 10px;
+    margin-bottom: 20px; */
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    margin-left: auto;
+}
+#design span{
+    color: #47B2E4;
+}

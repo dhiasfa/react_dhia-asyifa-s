@@ -1,12 +1,12 @@
-// fungsi untuk memvalidasi input dari productName
+// fungsi untuk memvalidasi input dari product name
 function validateProductName() {
-    let input = document.getElementById("productName");
+    let inputName = document.getElementById("productName");
     let maxLength = 25;
     
-   if (input.value.length > maxLength) {
-      input.value = input.value.slice(0, maxLength);
+   if (inputName.value.length > maxLength) {
+      inputName.value = inputName.value.slice(0, maxLength);
         return false;
-    } else if (input.value.length == 10){
+    } else if (inputName.value.length == 10){
       alert("Last Name must not exceed 25 characters");
       return false;
     }
@@ -14,7 +14,7 @@ function validateProductName() {
       return true;
     }
 }
-
+//fungsu untuk cek input tidak boleh kosong
 function handleInput(){
 
     let productName = document.getElementById("productName");
