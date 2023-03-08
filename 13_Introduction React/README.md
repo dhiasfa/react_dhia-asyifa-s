@@ -10,7 +10,8 @@ Berikut beberapa kelebihan menggunakan react yaitu :
 
     - Komponen yang Besar dapat dipecah menjadi beberapa komponen kecil sehingga memudahkan dalam pembuatan. 
     Contohnnya seperti gambar berikut :
-    ![Grid](https://www.petanikode.com/img/react/komponen/komponen.png)
+    
+    #####![Grid](https://www.petanikode.com/img/react/komponen/komponen.png)
 
 - Sekali belajar react dapat ditulis dimana saja, seperti ios, dan android, dengan menggunakan react native
 - Dan react termasuk library yang popular sehingga banyak komunitas yang menggunakannya.
