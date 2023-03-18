@@ -14,7 +14,7 @@ Berikut beberapa hook routing pada react yang dapat digunakan :
 
     - useHistory yang berfungsi untuk memberikan akses ke instance riwayat yang dapat digunakan untuk bernavigasi. 
     - useParams yang berfungsi mengembalikan objek pasangan kunci/nilai parameter URL. 
-    -useRouteMatch yang berfungsi untuk mencocokan URL saat ini dan dapat berguna untuk mendapatkan akses ke data kecocokan tanpa benar benar merender `<Route>`. 
+    - useRouteMatch yang berfungsi untuk mencocokan URL saat ini dan dapat berguna untuk mendapatkan akses ke data kecocokan tanpa benar benar merender `<Route>`. 
 
 
 
