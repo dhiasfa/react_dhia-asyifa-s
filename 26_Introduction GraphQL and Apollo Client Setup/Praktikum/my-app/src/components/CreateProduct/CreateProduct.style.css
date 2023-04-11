@@ -1,0 +1,80 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    height: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    width: auto;
+  }
+  header{
+    padding: 5px;
+    font-family: 'Roboto';
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2);
+    background: #FFFFFF;
+  } 
+  header h4{
+    margin-left:10px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 5px;
+  
+  }
+  .content{
+    color: #212529;
+  }
+  .content h2{
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 38px;
+    margin-top: 10px;
+  }
+  .content p{
+    width: 900px;
+    height: 60px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .content h3{
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 29px;
+  }
+  form label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .form-product{
+    width: 600px;
+  }
+  #image-product{
+  color:#0D6EFD !important;
+  border:1px solid #0D6EFD !important;
+  }
+  #image-product ::-webkit-file-upload-button{
+  color:white!important;
+  background: #0D6EFD !important;
+  }
+  .list-product th{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #212529;
+  }
+  #list th,tr{
+    font-weight: 400 !important;
+    font-size: 13px;
+    line-height: 21px;
+    color: #212529;
+  }
+  textarea{
+    height: 116px;
+  }
+  
+  
